@@ -1,0 +1,63 @@
+#pagina_inicial table {
+   text-align: center;
+   margin: 0 auto;
+}
+
+#pagina_inicial table input, #pagina_inicial table input:focus {
+    border: 0px;
+    outline: 0px;
+}
+
+#iniciarJogo:hover {
+    cursor: pointer;
+}
+
+#palco_jogo {
+    display: none;
+    text-align: center;
+}
+
+.erro {
+    display: none;
+    color: red;
+}
+
+#palco_jogo div {
+    display: inline-block;
+}
+
+
+
+#jogo {
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+#jogo td {
+    width: 107px;
+    height: 107px;
+}
+
+.topo-esquerda {
+    border-bottom: 1px red solid;;
+    border-right: 1px red solid;
+}
+
+.topo-direita {
+    border-bottom: 1px red solid;;
+    border-left: 1px red solid;
+}
+
+.rodape-esquerda {
+    border-top: 1px red solid;;
+    border-right: 1px red solid;
+}
+
+.rodape-direita {
+    border-top: 1px red solid;;
+    border-left: 1px red solid;
+}
+
+.meio-tabela {
+    border: 1px solid red;
+}
